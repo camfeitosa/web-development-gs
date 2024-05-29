@@ -1,0 +1,40 @@
+.background{
+  background-image: url('/assets/img/fundo.png');
+  background-repeat: no-repeat;
+  height: 200vh;
+}
+
+#tecnologias{
+  height: 90vh;
+  position: relative;
+  margin-top: 12rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: beige; */
+  padding: 3rem 0;
+}
+
+#tecnologias h2{
+  text-transform: uppercase;
+  font-weight: 3rem;
+}
+
+#tecnologias img{
+  width: 25%;
+  position: absolute;
+  left: 0;
+  z-index: 0;
+  bottom: 0;   
+}
+
+
+@media screen and (max-width: 670px) {
+  .background{
+    background-image: url('/assets/img/fundo-mobile.png');
+  }
+}
+
+
+
+

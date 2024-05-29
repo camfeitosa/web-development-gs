@@ -1,0 +1,85 @@
+.medicao{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 6rem 6rem 3rem;
+  padding: 3rem;
+  gap: 1rem;
+
+  /* background-color: aqua; */
+}
+
+.medicao-item{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* background-color: red; */
+}
+
+.medicao-item span{
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.medicao-item h3{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.medicao-item p{
+  line-height: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* .wrapper-medicao{
+  background-color: #2b2b2b6e;
+  width: 50%;
+  padding: 1rem;
+  border-radius: 8px;
+  backdrop-filter: blur;
+  margin-top: 1rem;
+} */
+
+
+
+@media screen and (max-width: 670px) {
+  .medicao-item span{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: -10px;
+  }
+
+  section{
+    padding: 0;
+  }
+
+  .medicao{
+    padding: 0rem;
+    gap: 1rem;
+    margin: 0 1.5rem;
+    /* background-color: red; */
+  }
+
+  .wrapper-medicao{
+    background-color: #2b2b2b6e;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+  }
+
+  .medicao-item h3{
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  .medicao-item p{
+    line-height: 1rem;
+    margin-top: 0.5rem;
+  }
+
+}
+
+
+

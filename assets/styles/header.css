@@ -1,0 +1,48 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1.5rem 6rem;
+  background-color: var(--bg);
+  /* margin-bottom: 6rem; */
+}
+
+.logo{
+  width: 15%;
+}
+
+ul li{
+  list-style: none;
+}
+
+.nav-pages ul, .btn-identificacao{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+a{
+  color: #ffff;
+}
+
+.btn-identificacao .login, .btn-identificacao .cadastro{
+  width: 122px;
+  height: 36px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.login{
+  padding: 0.5rem 2rem;
+  border: 2px solid #4ECDC4;
+}
+
+.cadastro{
+  padding: 0.5rem 1rem;
+  background: #4ECDC4;
+  color: #2b2b2b;
+}
+
