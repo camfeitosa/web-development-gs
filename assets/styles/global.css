@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('./scrollbar.css');
 @import url('./medicao.css');
 @import url('./header.css');
@@ -24,7 +23,7 @@ a{
   --azul-400: ;
   --azul-600: ;
   --turquesa: ;
-  --font-family: 'Merriweather', sans-serif ;
+  --font-family: 'Merriweather', sans-serif;
 }
 
 body{

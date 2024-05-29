@@ -1,7 +1,7 @@
 
 body {
-  --sb-track-color: #232e33;
-  --sb-thumb-color: #085b65;
+  --fundo-barra: #232e33;
+  --color-barra: #085b65;
   --sb-size: 13px;
 }
 
@@ -10,19 +10,19 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: var(--sb-track-color);
+  background: var(--fundo-barra);
   border-radius: 8px;
 }
 
 body::-webkit-scrollbar-thumb {
-  background: var(--sb-thumb-color);
+  background: var(--color-barra);
   border-radius: 8px;
   
 }
 
 @supports not selector(::-webkit-scrollbar) {
   body {
-    scrollbar-color: var(--sb-thumb-color)
-                     var(--sb-track-color);
+    scrollbar-color: var(--color-barra)
+                     var(--fundo-barra);
   }
 }

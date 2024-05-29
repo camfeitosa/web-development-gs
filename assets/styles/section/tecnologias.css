@@ -17,7 +17,7 @@
 
 #tecnologias h2{
   text-transform: uppercase;
-  font-weight: 3rem;
+  font-size: 2rem;
 }
 
 #tecnologias img{
@@ -29,9 +29,9 @@
 }
 
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 1024px) {
   .background{
-    background-image: url('/assets/img/fundo-mobile.png');
+    background-image: url('/assets/img/fundo.png'); /* falta editar imagem */ 
   }
 }
 
