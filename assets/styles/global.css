@@ -23,8 +23,13 @@ a{
   --azul-400: ;
   --azul-600: ;
   --turquesa: #4ECDC4;
-  --font-family: 'Merriweather', sans-serif;
+  --titulo: 'Comfortaa', sans-serif;
+  --font-family: 'Merriweather', 'Arial', sans-serif;
 }
+
+/* h1, h2, h3{
+  font-family: var(--titulo);
+} */
 
 body{
   background: var(--bg);

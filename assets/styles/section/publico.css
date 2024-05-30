@@ -1,18 +1,66 @@
-#publico{
+#publico {
   height: 70vh;
   position: relative;
 }
 
-#publico .fundo1{
+#publico .fundo1 {
   position: absolute;
   left: 0;
   z-index: 0;
-  bottom: 0;   
+  bottom: 0;
 }
 
-#publico .fundo2{
+#publico .fundo2 {
   position: absolute;
   right: 0;
   z-index: 0;
-  bottom: 0;   
+  bottom: 0;
+}
+
+.fundo1,
+.fundo2,
+.alvo {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.container-publico {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.publico-texto {
+  position: relative;
+  height: 70vh;
+  display: flex;
+  padding: 5rem 5rem;
+}
+
+.publico-texto h2{
+  font-size: 3rem;
+  z-index: 1;
+  font-weight: 700;
+}
+
+.alvo {
+  position: absolute;
+  left: 0;
+  z-index: 0;
+  top: 0;
+  width: 20%;
+}
+
+.publico-img{
+  width: 80%;
+}
+
+.publico-img img{
+  width: 100%;
+}
+
+.publico-texto span{
+  color: var(--turquesa);
 }
