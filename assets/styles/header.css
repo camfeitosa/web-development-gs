@@ -37,12 +37,12 @@ a{
 
 .login{
   padding: 0.5rem 2rem;
-  border: 2px solid #4ECDC4;
+  border: 2px solid var(--turquesa);
 }
 
 .cadastro{
   padding: 0.5rem 1rem;
-  background: #4ECDC4;
+  background: var(--turquesa);
   color: #2b2b2b;
 }
 

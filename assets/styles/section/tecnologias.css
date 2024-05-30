@@ -1,11 +1,11 @@
-.background{
-  background-image: url('/assets/img/fundo.png');
+.background {
+  background-image: url("/assets/img/fundo.png");
   background-repeat: no-repeat;
   height: 200vh;
 }
 
-#tecnologias{
-  height: 90vh;
+#tecnologias {
+  height: 100vh;
   position: relative;
   margin-top: 12rem;
   display: flex;
@@ -15,26 +15,73 @@
   padding: 3rem 0;
 }
 
-#tecnologias h2{
+.container-tech {
+  text-align: center;
+}
+
+.container-tech h2 {
   text-transform: uppercase;
   font-size: 2rem;
 }
 
-#tecnologias img{
+#tecnologias .tartaruga {
   width: 25%;
   position: absolute;
   left: 0;
   z-index: 0;
-  bottom: 0;   
+  bottom: 0;
 }
 
+.seta{
+  position: absolute;
+  z-index: 0;
+  top: 70%;
+}
+
+
+
+.wrapper-tech {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 10rem 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tech {
+  display: flex;
+  width: 281px;
+  height: 113px;
+  border-radius: 8px;
+  background: var(--bg);
+  text-align: center;
+}
+
+.img-tech {
+  background-color: #fff;
+  width: 40%;
+  border-radius: 8px;
+}
+
+.nome-tech {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nome-tech h2 {
+  font-size: 1rem;
+  font-weight: 400;
+}
 
 @media screen and (max-width: 1024px) {
-  .background{
-    background-image: url('/assets/img/fundo.png'); /* falta editar imagem */ 
+  .background {
+    background-image: url("/assets/img/fundo.png"); /* falta editar imagem */
+  }
+
+  .tartaruga {
+    display: none;
   }
 }
-
-
-
-
