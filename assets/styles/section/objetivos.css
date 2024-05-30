@@ -1,5 +1,15 @@
 #objetivos{
   height: 100vh;
+  margin-bottom: 2rem;
+}
+
+.container-objetivos{
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
 }
 
 .wrapper-objetivos{
@@ -18,3 +28,13 @@
   /* background-image: url(''); */
   background-color: aliceblue;
 }
+
+.container-objetivos h2{
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+

@@ -78,14 +78,14 @@
   justify-content: center;
 }
 
-.nome-tech h2, .container-objetivos h2 {
+.nome-tech h2{
   font-size: 1rem;
   font-weight: 400;
 }
 
 @media screen and (max-width: 1024px) {
   .background {
-    background-image: url("/assets/img/fundo-mobile.png"); /* falta editar imagem */
+    background-image: url("/assets/img/fundo.png"); /* falta editar imagem */
   }
 
   .tartaruga {
