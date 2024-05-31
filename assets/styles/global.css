@@ -8,6 +8,7 @@
 @import url('./section/publico.css');
 @import url('./section/beneficios.css');
 @import url('./section/cotidiano.css');
+@import url('login/main.css');
 
 *{
   padding: 0;

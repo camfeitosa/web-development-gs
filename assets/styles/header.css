@@ -3,13 +3,13 @@ header {
   justify-content: space-between;
   align-items: center;
 
-  padding: 1.5rem 6rem;
+  padding: 0.7rem 4.5rem;
   background-color: var(--bg);
   /* margin-bottom: 6rem; */
 }
 
 .logo {
-  width: 15%;
+  width: 100%;
 }
 
 ul li {

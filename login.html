@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/global.css">
+    <title>Login</title>
+</head>
+<body>
+    <header id="header">
+        <a href="index.html" id="logo">
+          <img src="./assets/img/logo.svg" alt="Logo" class="logo">
+        </a> 
+    
+        <nav id="nav"> 
+          <button id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+            <span id="hamburger"></span>
+          </button>
+          <ul id="menu" role="menu">
+            <li class="menu-pg"><a href="#problema">Problema</a></li> 
+            <li class="menu-pg"><a href="#tecnologias">Tecnologias</a></li>
+            <li class="menu-pg"><a href="#objetivos">Objetivos</a></li>
+            <li class="menu-pg"><a href="#publico">Público</a></li>
+            <li class="menu-pg"><a href="#beneficios">Benefícios</a></li>
+            <li class="menu-pg"><a href="#cotidiano">Utilidades</a></li>
+            
+            <ul id="btn-identificacao">
+              <li class="login"><a href=""></a>Entrar</li>
+              <li class="cadastro"><a href=""></a>Cadastrar</li>
+            </ul>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div class="main__container">
+            <div class="login__esquerda">
+                <h1 class="login__texto">Começe sua jornada na<span class="turquesa"> Breathe Ocean</span></h1>
+                <img src="assets/img/logo-login.svg" alt="Logo login" id="logo-login">
+            </div>
+            <div class="login__box">
+                <form>
+                    <div>
+                        <p class="nome-input">Nome</p>
+                        <input type="text" placeholder="Digite seu nome">
+                    </div>
+
+                    <div>
+                        <p class="nome-input">E-mail</p>
+                        <input type="text" placeholder="Digite seu e-mail">
+                    </div>
+
+                    <div>
+                        <p class="nome-input">Senha</p>
+                        <input type="text" placeholder="Digite sua senha">
+                        <p class="nome-input">Sua senha deve ter no mínimo 6 carcteres</p>
+                    </div>
+
+                    <div>
+                        <p class="nome-input">Confirmar senha</p>
+                        <input type="text" placeholder="Digite sua senha">
+                    </div>
+                
+                    <p class="nome-input">Já possui uma conta?<b> Entrar</b></p>
+
+                    <a href="#" class="login__box-login-btn">Login</a>
+                </form>
+            </div>
+        </div>
+        
+      </main>
+</body>
+</html>
