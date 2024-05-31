@@ -10,22 +10,29 @@
   <title>Document</title>
 </head>
 <body>
-  <header>
-    <img src="./assets/img/logo.svg" alt="Logo" class="logo">
-    <nav class="nav-pages"> 
-      <ul>
-        <li><a href="#problema">Problema</a></li>
-        <li><a href="#tecnologias">Tecnologias</a></li>
-        <li><a href="#objetivos">Objetivos</a></li>
-        <li><a href="#publico">Público</a></li>
-        <li><a href="#beneficios">Benefícios</a></li>
-        <li><a href="">Nome</a></li>
+  <header id="header">
+    <a href="#" id="logo">
+      <img src="./assets/img/logo.svg" alt="Logo" class="logo">
+    </a> 
+
+    <nav id="nav"> 
+      <button id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+        <span id="hamburger"></span>
+      </button>
+      <ul id="menu" role="menu">
+        <li class="menu-pg"><a href="#problema">Problema</a></li> 
+        <li class="menu-pg"><a href="#tecnologias">Tecnologias</a></li>
+        <li class="menu-pg"><a href="#objetivos">Objetivos</a></li>
+        <li class="menu-pg"><a href="#publico">Público</a></li>
+        <li class="menu-pg"><a href="#beneficios">Benefícios</a></li>
+        <li class="menu-pg"><a href="#cotidiano">Utilidades</a></li>
+        
+        <ul id="btn-identificacao">
+          <li class="login"><a href=""></a>Entrar</li>
+          <li class="cadastro"><a href=""></a>Cadastrar</li>
+        </ul>
       </ul>
     </nav>
-    <ul class="btn-identificacao">
-      <li class="login"><a href=""></a>Entrar</li>
-      <li class="cadastro"><a href=""></a>Cadastrar</li>
-    </ul>
   </header>
 
   <main>
@@ -250,6 +257,7 @@
     </footer>
   </main>
 
-<script src="./assets/js/main.js"></script>
+<script src="./assets/js/medicao.js"></script>
+<script src="./assets/js/menu-mobile.js"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-header{
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,51 +8,152 @@ header{
   /* margin-bottom: 6rem; */
 }
 
-.logo{
+.logo {
   width: 15%;
 }
 
-ul li{
+ul li {
   list-style: none;
 }
 
-.nav-pages ul, .btn-identificacao{
+#nav #menu,
+#btn-identificacao {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
 }
 
-a{
+#btn-identificacao{
+  margin-left: 10rem;
+}
+
+a {
   color: #ffff;
 }
 
-.btn-identificacao .login, .btn-identificacao .cadastro{
+#btn-identificacao .login,
+#btn-identificacao .cadastro {
   width: 122px;
   height: 36px;
   border-radius: 8px;
   text-align: center;
+  cursor: pointer;
   font-weight: 600;
 }
 
-.login{
+.login {
   padding: 0.5rem 2rem;
   border: 2px solid var(--turquesa);
 }
 
-.cadastro{
+.cadastro {
   padding: 0.5rem 1rem;
   background: var(--turquesa);
   color: #2b2b2b;
 }
 
+#btn-mobile {
+  display: none;
+} 
 
-
-@media screen and (max-width: 1024px) {
-    .nav-pages{
-      display: none;
-    }
-
+@media screen and (min-width: 1600px ) {
+  #btn-identificacao{
+    margin-left: 16rem;
+  }
+  
 }
 
+@media screen and (max-width: 1300px ) {
+  #btn-identificacao{
+    margin-left: 1rem;
+  }
+  
+}
 
+@media screen and (max-width: 1024px) {
+  #menu {
+    display: block;
+    flex-direction: column;
+    gap: 2rem;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    right: 0px;
+    background: var(--bg);
+    transition: 0.6s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+
+  #btn-identificacao {
+    display: none;
+  }
+
+  #nav.active #menu {
+    height: 80vh;
+    visibility: visible;
+    margin-top: 5rem;
+    justify-content: flex-start;
+    overflow-y: auto;
+  }
+
+  #btn-mobile {
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.5rem;
+  }
+
+  #hamburger {
+    border-top: 2px solid;
+    width: 20px;
+    color: #fff;
+  }
+  #hamburger::after,
+  #hamburger::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+  }
+  #nav.active #hamburger {
+    border-top-color: transparent;
+  }
+  #nav.active #hamburger::before {
+    transform: rotate(135deg);
+  }
+  #nav.active #hamburger::after {
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+  
+  #btn-identificacao{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 0;
+  }
+
+  #menu .menu-pg{
+    padding: 0.6rem;
+    margin: 0 1rem;
+    text-transform: uppercase;
+    transition: 0.4s;
+  }
+
+  #menu li:hover {
+    background-color: #2f4862 ;
+    border-radius: 8px;
+  }
+ 
+}
