@@ -1,3 +1,85 @@
-#beneficios{
+#beneficios, #cotidiano {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
   height: 100vh;
-} 
+}
+
+#beneficios h2, #cotidiano h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.turquesa {
+  color: var(--turquesa);
+}
+
+.container-beneficios {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-cards-beneficios {
+  display: flex;
+  width: 70%;
+  align-items: end;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  gap: 2rem;
+}
+
+.second{
+  margin: 0 auto;
+}
+
+.card-beneficio {
+  display: flex;
+  width: 60%;
+  height: 40%;
+  padding: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  border: 3px solid #336B99;
+  border-radius: 8px;
+  background: linear-gradient(79deg, #20374F 0%, #336B99 52%, #4E7291 100%);
+  backdrop-filter: blur(48px);
+}
+
+.card-beneficio:hover{
+  border: 3px solid #6487D8;
+
+}
+
+.beneficios-img{
+  width: 50%;
+}
+
+.beneficios-img img{
+  width: 70%;
+}
+
+@media screen and (max-width: 1024px) {
+  #beneficios{
+    height: auto;
+    gap: 2rem;
+  }
+
+  .container-beneficios{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .card-beneficio{
+    width: 100%;
+    height: auto
+  }
+
+
+}

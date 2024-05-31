@@ -1,7 +1,7 @@
 .background {
   background-image: url("/assets/img/fundo.png");
   background-repeat: no-repeat;
-  height: 200vh;
+  height: auto;
 }
 
 #tecnologias {
@@ -104,8 +104,14 @@
     width: 50px;
   }
 
+  .wrapper-tech{
+    gap: 2rem;
+  }
+  
   #tecnologias{
     height: auto;
     margin-bottom: 0;
   }
 }
+
+

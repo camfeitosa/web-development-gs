@@ -1,11 +1,13 @@
 @import url('./scrollbar.css');
 @import url('./medicao.css');
 @import url('./header.css');
+@import url('./footer.css');
 @import url('./section/problema.css');
 @import url('./section/tecnologias.css');
 @import url('./section/objetivos.css');
 @import url('./section/publico.css');
 @import url('./section/beneficios.css');
+@import url('./section/cotidiano.css');
 
 *{
   padding: 0;

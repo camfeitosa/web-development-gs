@@ -1,0 +1,49 @@
+#cotidiano{
+  background-image: url('../../img/cotidiano-fundo.svg');
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+  /* justify-content: center; */
+}
+
+.container-cotidiano{
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper-cotidiano{
+  display: flex;
+  max-width: 90%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.card-cotidiano{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 30%;
+  padding: 1.5rem 1rem;
+}
+
+.card-cotidiano p{
+  line-height: 1.4;
+}
+
+.card-cotidiano img{
+  width: 20%;
+}
+
+@media screen and (max-width: 840px) {
+  .card-cotidiano{
+    width: 100%;
+  }
+
+  #cotidiano{
+    height: auto;
+    background-image: url('../../img/cotidiano-fundo2.svg');
+  }
+}

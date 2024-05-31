@@ -1,0 +1,28 @@
+footer{
+  padding: 2rem 6rem;
+  background-color: var(--fundo);
+  border-top: 1px solid #8a8a8aa8;
+}
+
+.container-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.icones{
+  display: flex;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  footer{
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+  }
+
+  .icones img{
+    width: 50%;
+  }
+}
