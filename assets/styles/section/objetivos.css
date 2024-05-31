@@ -1,6 +1,6 @@
 #objetivos{
   height: 100vh;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .container-objetivos{
@@ -38,6 +38,10 @@
 .card-objetivo{
   width: 32%;
   height: 230px;
+}
+
+#objetivos{
+  margin-bottom:0;
 }
 }
 
