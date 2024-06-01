@@ -40,6 +40,24 @@ a {
   text-align: center;
   cursor: pointer;
   font-weight: 600;
+  transition: .2s;
+  border: solid 2px var(--turquesa);
+}
+
+.login:hover{
+  background-color: var(--turquesa);
+}
+
+.login:hover a{
+  color: #000;
+}
+
+.cadastro:hover{
+  background-color: transparent;
+}
+
+.cadastro:hover a{
+  color: var(--turquesa); 
 }
 
 .login {

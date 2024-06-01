@@ -1,5 +1,7 @@
 footer{
-  padding: 2rem 6rem;
+  position: absolute;
+  width: 100%;
+  padding: 1.5rem 6rem;
   background-color: var(--bg);
   border-top: 1px solid #8a8a8aa8;
 }

@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/styles/global.css">
-    <title>Entrar</title>
+    <title>Cadastrar</title>
 </head>
 <body>
     <header id="header">
@@ -16,8 +16,8 @@
         </a> 
     
         <nav id="nav"> 
-          <button id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
-            <span id="hamburger"></span>
+          <!-- <button id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+            <span id="hamburger"></span> -->
           </button>
           <ul id="menu" role="menu">
             <!-- <li class="menu-pg"><a href="#problema">Problema</a></li> 
@@ -37,11 +37,16 @@
       <main>
         <div class="main__container">
             <div class="login__esquerda">
-                <h1 class="login__texto">Bem vindo de volta!<span class="turquesa"> Breathe Ocean</span></h1>
-                
+                <h1 class="login__texto">Começe sua jornada na<span class="turquesa"> Breathe Ocean</span></h1>
+                <img src="assets/img/logo-cad.svg" alt="Logo login" id="logo-login">
             </div>
-            <div class="login__box">
+            <div class="register__box">
                 <form>
+                    <div>
+                        <p class="nome-input">Nome</p>
+                        <input type="text" placeholder="Digite seu nome">
+                    </div>
+
                     <div>
                         <p class="nome-input">E-mail</p>
                         <input type="text" placeholder="Digite seu e-mail">
@@ -50,19 +55,23 @@
                     <div>
                         <p class="nome-input">Senha</p>
                         <input type="text" placeholder="Digite sua senha">
-                        <!-- <p class="nome-input">Senha incorreta</p> -->
+                        <p class="nome-input">Sua senha deve ter no mínimo 6 carcteres</p>
                     </div>
 
+                    <div>
+                        <p class="nome-input">Confirmar senha</p>
+                        <input type="text" placeholder="Digite sua senha">
+                    </div>
                     <div id="conta-existente"> 
-                        <p class="nome-input">Não possui uma conta?<b><a href="login.html"> Cadastrar</a></b></p>
+                      <p class="nome-input">Já possui uma conta?<b><a href="login.html"> Entrar</a></b></p>
                     </div>
 
-                    <a href="#" class="login__box-login-btn">Entrar</a>
+                    <a href="#" class="login__box-login-btn">Cadastrar</a>
                 </form>
             </div>
           </div>
           
-          <img src="./assets/img/fundo-cad.png" alt="Fundo" class="fundo-cad">
+          <img src="./assets/img/fundo-cad.png" alt="Fundo oceano" class="fundo-cad">
         
           <footer>
             <div class="container-footer">
