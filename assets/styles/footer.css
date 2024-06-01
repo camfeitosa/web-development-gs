@@ -11,9 +11,14 @@ footer{
   text-align: center;
 }
 
+
 .icones{
   display: flex;
   gap: 1rem;
+}
+
+.img-logo img{
+  width: 70%;
 }
 
 @media screen and (max-width: 1024px) {

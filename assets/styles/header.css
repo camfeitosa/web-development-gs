@@ -9,7 +9,7 @@ header {
 }
 
 .logo {
-  width: 100%;
+  width: 70%;
 }
 
 ul li {
@@ -50,7 +50,10 @@ a {
 .cadastro {
   padding: 0.5rem 1rem;
   background: var(--turquesa);
-  color: #2b2b2b;
+}
+
+.cadastro a{
+  color: var(--bg);
 }
 
 #btn-mobile {
