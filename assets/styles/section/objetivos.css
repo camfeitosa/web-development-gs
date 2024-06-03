@@ -27,7 +27,34 @@
   border-radius: 8px;
   /* background-image: url(''); */
   background-color: aliceblue;
+  padding: 3rem;
 }
+
+.card1{
+  background-image: url('../../img/card1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card2{
+  background-image: url('../../img/card2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card3{
+  background-image: url('../../img/card1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper-objetivos h3{
+  font-size: 2.2rem;
+  font-weight: 500;
+  text-align: left;
+  width: 70%;
+}
+
 
 .container-objetivos h2{
   font-size: 2rem;
