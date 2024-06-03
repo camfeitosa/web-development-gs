@@ -81,3 +81,13 @@
     height: auto
   }
 }
+
+@media screen and (max-width: 1500px) and (min-width: 850px) {
+  #beneficios, #cotidiano{
+    height: auto;
+  }
+
+  #cotidiano{
+    margin-bottom: 8rem;
+  }
+}
