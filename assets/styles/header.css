@@ -42,13 +42,14 @@ a {
   font-weight: 600;
   transition: .2s;
   border: solid 2px var(--turquesa);
+  font-size: 1em;
 }
 
 .login:hover{
   background-color: var(--turquesa);
 }
 
-.login:hover a{
+.login:hover{
   color: #000;
 }
 
@@ -56,13 +57,15 @@ a {
   background-color: transparent;
 }
 
-.cadastro:hover a{
+.cadastro:hover{
   color: var(--turquesa); 
 }
 
 .login {
   padding: 0.5rem 2rem;
   border: 2px solid var(--turquesa);
+  background-color: transparent;
+  color: #fff;
 }
 
 .cadastro {
