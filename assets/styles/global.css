@@ -9,6 +9,7 @@
 @import url('./section/beneficios.css');
 @import url('./section/cotidiano.css');
 @import url('login-cadastro/main.css');
+@import url('../../pages/style.css');
 
 *{
   padding: 0;
@@ -22,10 +23,9 @@ a{
 
 :root{
   --bg: #0D1B2A;
-  --azul-200: ;
-  --azul-400: ;
-  --azul-600: ;
   --turquesa: #4ECDC4;
+  --text-author-color: #858585;
+  --text-tag-color: #9c9c9c;
   --titulo: 'Comfortaa', sans-serif;
   --font-family: 'Merriweather', 'Arial', sans-serif;
 }
