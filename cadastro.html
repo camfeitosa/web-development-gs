@@ -48,7 +48,7 @@
                 <img src="assets/img/logo-cad.svg" alt="Logo login" id="logo-login">
             </div>
             <div class="register__box">
-                <form>
+                <form id="form">
                     <div>
                         <p class="nome-input">Nome</p>
                         <input type="text" placeholder="Digite seu nome">
@@ -65,15 +65,19 @@
                           <input type="password" placeholder="Digite sua senha" id="senha">
                           <img src="./assets/img/eye2.svg">
                         </div>
-                        <p class="nome-input">Sua senha deve ter no mínimo 6 carcteres</p>
+                        <span id="min-characters"></span>
+                        <!-- <p class="nome-input">Sua senha deve ter no mínimo 6 carcteres</p> -->
                     </div>
 
                     <div>
                         <p class="nome-input">Confirmar senha</p>
-                        <div class="password">
+                        <!-- wrong-password -->
+                         <div class="password" id="password-box"> 
                           <input type="password" placeholder="Digite sua senha" id="confirme-senha">
                           <img src="./assets/img/eye2.svg" alt="">
                         </div>
+                        <span id="wrong-password-text"></span>
+                        <!-- <p class="wrong-password-text">Senha incorreta</p> -->
                     </div>
                     <div id="conta-existente"> 
                       <p class="nome-input">Já possui uma conta?<b><a href="login.html"> Entrar</a></b></p>
