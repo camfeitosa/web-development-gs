@@ -56,13 +56,13 @@
 
                     <div>
                         <p class="nome-input">E-mail</p>
-                        <input type="email" placeholder="Digite seu e-mail">
+                        <input type="email" placeholder="Digite seu e-mail" id="cadastro-email">
                     </div>
 
                     <div>
                         <p class="nome-input">Senha</p>
                         <div class="password">
-                          <input type="password" placeholder="Digite sua senha">
+                          <input type="password" placeholder="Digite sua senha" id="senha">
                           <img src="./assets/img/eye2.svg">
                         </div>
                         <p class="nome-input">Sua senha deve ter no mínimo 6 carcteres</p>
@@ -71,7 +71,7 @@
                     <div>
                         <p class="nome-input">Confirmar senha</p>
                         <div class="password">
-                          <input type="password" placeholder="Digite sua senha">
+                          <input type="password" placeholder="Digite sua senha" id="confirme-senha">
                           <img src="./assets/img/eye2.svg" alt="">
                         </div>
                     </div>
@@ -79,7 +79,7 @@
                       <p class="nome-input">Já possui uma conta?<b><a href="login.html"> Entrar</a></b></p>
                     </div>
 
-                    <a href="index.html" class="login__box-login-btn">Cadastrar</a>
+                    <input type="submit" class="login__box-login-btn" value="Cadastrar" onclick="verificarSenha()">
                 </form>
             </div>
           </div>
@@ -101,6 +101,6 @@
             </div>
           </footer>
       </main>
-      
+      <script src="assets/js/cadastro.js"></script>
 </body>
 </html>

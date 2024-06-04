@@ -81,6 +81,10 @@ a {
   display: none;
 } 
 
+.menu-pg:hover{
+  border-bottom: 2px white solid; 
+}
+
 @media screen and (min-width: 1600px ) {
   #btn-identificacao{
     margin-left: 16rem;
