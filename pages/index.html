@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta metacharset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vídeos | Breathe Ocean</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../assets/styles/global.css" />
+  <link rel="icon" type="image/x-icon" href="../assets/img/logo-cad.svg">
+</head>
+
+<header id="header-videos">
+  <a href="index.html" id="logo">
+    <img src="img/logo-gs.svg" alt="Logo" class="logo">
+  </a> 
+
+  <nav id="nav"> 
+    <button id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+      <span id="hamburger"></span>
+    </button>
+
+    <ul id="menu" role="menu">
+      <li class="menu-pg"><a href="#problema">Vídeos</a></li> 
+      <li class="menu-pg"><a href="#tecnologias">Python(nome)</a></li>
+      <li class="menu-pg"><a href="#objetivos">Perfil</a></li>
+      <li class="hidden"><a href="#">Sair</a></li>
+    </ul>
+  </nav>
+
+  <ul id="btn-sair">
+    <li class="sair">
+      <img src="./img/log-out .svg">
+      <a href="login.html">Sair</a>
+    </li>
+  </ul> 
+
+</header>
+
+<body>
+
+  <nav class="wrap">  <!-- filter -->
+
+    <div id="search-container">
+      <input type="search" id="search-input" placeholder="Procure o título do vídeo..."/>
+      <button id="search">
+        <img src="./img/search.svg">
+      </button>
+    </div>
+
+    <!-- Mudar value do botão == categoria -->
+
+    <img src="./img/filter.svg" id="filterIcon" alt="filtro">
+    <ul class="nav hidden">
+      <li><button class="btn btn-front" href="#" id="btnFiltrarLivrosFront" value="front-end" > Economia Azul</button>
+      </li>
+      <li><button class="btn btn-back" href="#" id="btnFiltrarLivrosBack" value="back-end">Poluição Marinha</button>
+      </li>
+      <li><button class="btn btn-dados" href="#" id="btnFiltrarLivrosDados" value="dados">Redução de Plásticos</button></li>
+      <li><button class="btn btn-disponiveis" href="#" id="btnFiltrarLivrosFront">Conservação Marinha</button></li>
+      <li><button class="btn btn-ordenacao" href="#" id="btnFiltrarLivrosFront">Limpeza de praias</button></li>
+    </ul>
+
+  </nav>
+
+  
+  <section class="videos" id="videos">
+
+  </section>
+  
+  <script src="./app/main.js"></script>
+  <script src="./app/metodoForEach.js"></script>
+  <script src="./app/metodoFilter.js"></script>
+  <script src="./app/search.js"></script>
+  <script src="./app/modalFilter.js"></script>
+  <!-- <script src="./app/metodoSort.js"></script> -->
+
+</body>
+
+</html>
