@@ -10,7 +10,7 @@ body {
   background-color: var(--bg);
 }
 
-#menu{
+.menu-video {
   margin-right: 4rem;
 }
 
@@ -28,6 +28,8 @@ body {
   transition: .2s;
   border: solid 2px var(--turquesa);
   font-size: 1em;
+  background-color: transparent;
+  color: #fff;
 }
 
 /* BOTÕES FILTER */

@@ -127,6 +127,24 @@ input{
     margin-top: 8.5px;
 }
 
+.color{
+    color: #E94C4C;
+}
+
+#cadastrado{
+    text-align: center;
+    width: 100%;
+}
+
+.cadastrado{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.color2{
+    color: #5dd487;
+}
+
 input[type=text]:focus, input[type=email]:focus{
     outline: none;
     box-shadow: 0px 4px 4px 0px #4ECDC4;
