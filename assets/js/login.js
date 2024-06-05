@@ -1,3 +1,5 @@
+const wrongLogin = document.getElementById('wrong-login')
+
 document.getElementById('login').addEventListener('submit', function (e) {
     e.preventDefault();
     const email = document.getElementById('email').value;
@@ -11,7 +13,7 @@ document.getElementById('login').addEventListener('submit', function (e) {
         localStorage.setItem('loggedInUser', email);
         window.location.href = 'pages/index.html';
     } else {
-        alert('Email ou senha incorretos');
+        wrongLogin.innerHTML = `E-mail ou senha errados`
     }
 });
 
