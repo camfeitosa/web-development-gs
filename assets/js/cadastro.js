@@ -64,6 +64,13 @@ togglePassword.addEventListener('click', function (){
     password.type = type;
 })
 
+const togglePassword2 = document.querySelector('.togglePassword2')
+const password2 = document.querySelector('.password-eye2')
+
+togglePassword2.addEventListener('click', function (){
+    const type = password2.type === "password" ? "text" : "password"
+    password2.type = type;
+})
 
 
 
