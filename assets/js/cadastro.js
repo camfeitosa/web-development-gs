@@ -8,9 +8,11 @@ function verificarSenha() {
     if (senha != confirmeSenha) {
         inputDeSenha.classList.add('wrong-password')
         senhaIncorretaTexto.innerHTML = `<p class="wrong-password-text">Senhas diferentes</p>`
-        form.addEventListener('submit', function (evento) {
-            evento.preventDefault();
-        });
+        return false
+    } else {
+        inputDeSenha.classList.remove('wrong-password')
+        senhaIncorretaTexto.innerHTML = ''
+        return true
     }
 }
 
@@ -26,6 +28,11 @@ function saveUsers(users) {
 
 document.getElementById('form').addEventListener('submit', function (e) {
     e.preventDefault();
+
+    if (!verificarSenha()){
+        return
+    }
+
     const username = document.getElementById('nomeCadastro').value;
     const email = document.getElementById('emailCadastro').value;
     const password = document.getElementById('senha').value;
