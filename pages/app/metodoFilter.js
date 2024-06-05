@@ -1,11 +1,19 @@
-const botoes = document.querySelectorAll('.btn')
-botoes.forEach(btn => btn.addEventListener('click', filtrarVideos))
+const botoes = document.querySelectorAll('.btn');
+botoes.forEach(btn => btn.addEventListener('click', filtrarVideos));
 
 function filtrarVideos(){
-  const elementoBtn = document.getElementById(this.id)
-  const categoria = elementoBtn.value
+  const categoria = this.value;
 
-  let videosFiltrados = videos.filter(video => video.categoria == categoria)
+  let videosFiltrados;
+  if (categoria) {
+    videosFiltrados = videos.filter(video => video.categoria == categoria);
+  } else {
+    videosFiltrados = videos;
+  }
     
-  exibirOsVideosNaTela(videosFiltrados)
+  exibirOsVideosNaTela(videosFiltrados);
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+  exibirOsVideosNaTela(videos);
+});
