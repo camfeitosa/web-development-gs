@@ -8,7 +8,7 @@ function medidas() {
   
       contador.innerHTML = `${valor}%`;
   
-      if (valor == 70) {
+      if (valor == 48) {
         //limpa o intervalo de tempo
         clearInterval(tempo);
       }
@@ -18,11 +18,11 @@ function medidas() {
     let valor1 = 0;
   
     let tempo1 = setInterval(() => {
-      valor1 += 2;
+      valor1 += 1;
   
       contador1.innerHTML = `+${valor1}`;
   
-      if (valor1 == 800) {
+      if (valor1 == 170) {
         clearInterval(tempo1);
       }
     });
@@ -31,11 +31,11 @@ function medidas() {
     let valor2 = 0;
   
     let tempo2 = setInterval(() => {
-      valor2 += 1;
+      valor2 += 5;
   
       contador2.innerHTML = `+${valor2}`;
   
-      if (valor2 == 150) {
+      if (valor2 == 2000) {
         clearInterval(tempo2);
       }
     });
