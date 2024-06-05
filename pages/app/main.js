@@ -79,12 +79,6 @@ let videos = [
   "categoria": "conservacao marinha"
 },
 {
-  "titulo": "aOs oceanos e as mudanças climáticas",
-  "canal": "Pacto Global da ONU - Rede Brasil",
-  "link": "https://www.youtube.com/embed/8VA9fIRQnDg?si=PcNxPAGKbBWWJc6_",    
-  "categoria": "conservacao marinha"
-},
-{
   "titulo": "Como fazer um mutirão de limpeza?",
   "canal": "Rede TerraMar",
   "link": "https://www.youtube.com/embed/TvabxVENXWE?si=3gTfAIUSTzwjyocc",    

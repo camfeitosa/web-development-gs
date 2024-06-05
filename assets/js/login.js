@@ -16,7 +16,7 @@ document.getElementById('login').addEventListener('submit', function (e) {
 });
 
 
-function togglePassword(){
+function togglePasswordLog(){
     const togglePassword = document.getElementById('togglePassword')
     const password = document.getElementById('password')
     
@@ -26,4 +26,4 @@ function togglePassword(){
         
     })
 }
-togglePassword()
+togglePasswordLog()
