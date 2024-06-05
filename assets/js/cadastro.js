@@ -4,7 +4,6 @@ function verificarSenha() {
     const confirmeSenha = document.getElementById('confirme-senha').value
     const inputDeSenha = document.getElementById('password-box')
     const senhaIncorretaTexto = document.getElementById('wrong-password-text')
-    const minimoDeCaracters = document.getElementById('min-characters')
 
     if (senha != confirmeSenha) {
         inputDeSenha.classList.add('wrong-password')
