@@ -1,4 +1,3 @@
-
 document.getElementById('login').addEventListener('submit', function (e) {
     e.preventDefault();
     const email = document.getElementById('email').value;
@@ -15,3 +14,16 @@ document.getElementById('login').addEventListener('submit', function (e) {
         alert('Email ou senha incorretos');
     }
 });
+
+
+function togglePassword(){
+    const togglePassword = document.getElementById('togglePassword')
+    const password = document.getElementById('password')
+    
+    togglePassword.addEventListener('click', function (){
+        const type = password.type === "password" ? "text" : "password"
+        password.type = type;
+        
+    })
+}
+togglePassword()

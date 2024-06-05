@@ -1,5 +1,4 @@
 function verificarSenha() {
-    const form = document.getElementById('form')
     const senha = document.getElementById('senha').value
     const confirmeSenha = document.getElementById('confirme-senha').value
     const inputDeSenha = document.getElementById('password-box')
@@ -56,6 +55,15 @@ document.getElementById('form').addEventListener('submit', function (e) {
         }, 2000)
     }
 });
+
+const togglePassword = document.querySelector('.togglePassword')
+const password = document.querySelector('.password-eye')
+
+togglePassword.addEventListener('click', function (){
+    const type = password.type === "password" ? "text" : "password"
+    password.type = type;
+})
+
 
 
 
