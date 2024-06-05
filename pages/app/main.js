@@ -1,121 +1,109 @@
 let videos = [
-  {
-    "titulo": "Vue.js: Construa aplicações incríveis",
-    "preco": 29.9,
-    "autor": "Caio Incau",
-    "imagem": "https://www.youtube.com/embed/-4H5-a9P3aY?si=f2wsgd6IfkD6lBhc",    
-    "alt": "Capa do livro de Front-end com Vue.js",
-    "quantidade": 50,
-    "categoria": "front-end"
-  },
-  {
-    "titulo": "PostgreSQL: Banco de dados para aplicações web modernas",
-    "preco": 89.9,
-    "autor": "Vinícius Carvalho",
-    "imagem": "https://www.youtube.com/embed/-UmOPQRpRIE?si=jlM71j758xt-YbMF",    
-    "alt": "Capa do livro de PostgreSQL",
-    "quantidade": 8,
-    "categoria": "dados"
-  },
-  {
-    "titulo": "Sass: Aprendendo pré-processadores CSS",
-    "preco": 79.9,
-    "autor": "Natan Souza",
-    "imagem": "https://www.youtube.com/embed/-UmOPQRpRIE?si=jlM71j758xt-YbMF",    
-    "alt": "Capa do livro de Front-end com Vue.js",
-    "quantidade": 11,
-    "categoria": "front-end"
-  },
-  {
-    "titulo": "HTML5 e CSS3: Domine a web do futuro",
-    "preco": 49.9,
-    "autor": "Lucas Mazza",
-    "imagem": "https://www.youtube.com/embed/-UmOPQRpRIE?si=jlM71j758xt-YbMF",    
-    "alt": "Capa do livro de HTML e CSS",
-    "quantidade": 0,
-    "categoria": "front-end"
-  },
-  {
-    "titulo": "Cangaceiro JavaScript: Uma aventura no sertão da programação",
-    "preco": 19.9,
-    "autor": "Flávio Almeida",
-    "imagem": "https://www.youtube.com/embed/-UmOPQRpRIE?si=jlM71j758xt-YbMF",    
-    "alt": "Capa do livro Cangaceiro JavaScript",
-    "quantidade": 42,
-    "categoria": "front-end"
-  },
-  {
-    "titulo": "Python: Escreva seus primeiros programas",
-    "preco": 9.9,
-    "autor": "Felipe Cruz",
-    "imagem": "https://www.youtube.com/embed/-UmOPQRpRIE?si=jlM71j758xt-YbMF",    
-    "alt": "Capa do livro de Python primeiros programas",
-    "quantidade": -2,
-    "categoria": "back-end"
-  },
-  {
-    "titulo": "Spring Boot: Acelere o desenvolvimento de microsserviços",
-    "preco": 29.9,
-    "autor": "Fernando Boaglio",
-    "imagem": "https://www.youtube.com/embed/-UmOPQRpRIE?si=jlM71j758xt-YbMF",    
-    "alt": "Capa do livro de Spring Boot",
-    "quantidade": 28,
-    "categoria": "back-end"
-  },
-  {
-    "titulo": "Django de A a Z: Crie aplicações web rápidas, seguras e escaláveis com Python",
-    "preco": 94.9,
-    "autor": "Tiago Silva",
-    "imagem": "https://www.youtube.com/embed/-UmOPQRpRIE?si=jlM71j758xt-YbMF",    
-    "alt": "Capa do livro de Django de A a Z",
-    "quantidade": 20,
-    "categoria": "back-end"
-  },
-  {
-    "titulo": "Guia Front-End: O caminho das pedras para ser um dev Front-End",
-    "preco": 139.9,
-    "autor": "Diego Eis",
-    "imagem": "https://www.youtube.com/embed/-UmOPQRpRIE?si=jlM71j758xt-YbMF",    
-    "alt": "Capa do livro Guia Front-end",
-    "quantidade": 255,
-    "categoria": "front-end"
-  },
-  {
-    "titulo": "Pandas Python: Data Wrangling para Ciência de Dados",
-    "preco": 229.9,
-    "autor": "Eduardo Corrêa",
-    "imagem": "https://www.youtube.com/embed/-UmOPQRpRIE?si=jlM71j758xt-YbMF",    
-    "alt": "Capa do livro de Pandas Python",
-    "quantidade": 42,
-    "categoria": "dados"
-  },
-  {
-    "titulo": "Front-end com Vue.js: Da teoria à prática sem complicações",
-    "preco": 99.9,
-    "autor": "Flávio Almeida",
-    "imagem": "https://www.youtube.com/embed/-UmOPQRpRIE?si=jlM71j758xt-YbMF",    
-    "alt": "Capa do livro de Vue.js",
-    "quantidade": 0,
-    "categoria": "front-end"
-  },
-  {
-    "titulo": "ECMAScript 6: Entre de cabeça no futuro do JavaScript",
-    "preco": 11.9,
-    "autor": "Diego Martins de Pinho",
-    "imagem": "https://www.youtube.com/embed/-UmOPQRpRIE?si=jlM71j758xt-YbMF",    
-    "alt": "Capa do livro ECMAScript 6",
-    "quantidade": 0,
-    "categoria": "front-end"
-  }
+
+{
+  "titulo": "Você sabe o que é Economia Azul?",
+  "canal": "Grupo Ecologia Humana",
+  "link": "https://www.youtube.com/embed/-4H5-a9P3aY?si=f2wsgd6IfkD6lBhc",    
+  "categoria": "economia azul"
+},
+{
+  "titulo": "Amazônia Azul – Economia do Mar",
+  "canal": "Marinha do Brasil",
+  "link": "https://www.youtube.com/embed/FSVaGU-SZPA?si=bCnjHGBqFgC08yvS",    
+  "categoria": "economia azul"
+},
+{
+  "titulo": "POLUIÇÃO MARINHA POR PLÁSTICOS",
+  "canal": "Canal Curta",
+  "link": "https://www.youtube.com/embed/8zAHYLwO1rE?si=EuRdCqaUjPFEfahG",    
+  "categoria": "poluicao marinha"
+},
+{
+  "titulo": "A odisseia de uma garrafa | ONU Meio Ambiente",
+  "canal": "ONU Brasil",
+  "link": "https://www.youtube.com/embed/EWqnWXnXURw?si=A3NF6e0eHrOkLhHH",    
+  "categoria": "poluicao marinha"
+},
+{
+  "titulo": "Microplásticos e a poluição nos oceanos",
+  "canal": "Minuto da Terra",
+  "link": "https://www.youtube.com/embed/adc0cOqE4qs?si=0Ckv_OQAhMKuV7hr",    
+  "categoria": "poluicao marinha"
+},
+{
+  "titulo": "PLÁSTICOS no MAR 🛍️🌊 Causas, consequências e soluções!",
+  "canal": "Nossa Ecologia",
+  "link": "https://www.youtube.com/embed/-UmOPQRpRIE?si=Evu2PO90Qi-zsaH9",    
+  "categoria": "poluicao marinha"
+},
+{
+  "titulo": "ONU: o plástico está cobrindo e destruindo nosso planeta",
+  "canal": "ONU Brasil",
+  "link": "https://www.youtube.com/embed/3dmZrzeg2e0?si=fwIj8VpQhBS1zy7u",    
+  "categoria": "poluicao marinha"
+},
+{
+  "titulo": "Combate ao Lixo no Mar",
+  "canal": "Rede TerraMar",
+  "link": "https://www.youtube.com/embed/fxnk97iBWJM?si=P_uvMcoYCcLsu6lN",    
+  "categoria": "reducao de plasticos"
+},
+{
+  "titulo": "Como REDUZIR O USO DE PLÁSTICO 🛍️❌ (10 Maneiras)",
+  "canal": "Nossa Ecologia",
+  "link": "https://www.youtube.com/embed/3HWiXG877Gs?si=qhZVpPV_QNMjoq3a",    
+  "categoria": "reducao de plasticos"
+},
+{
+  "titulo": "Como reduzir o lixo plástico no mundo?",
+  "canal": "eCycle",
+  "link": "https://www.youtube.com/embed/KtC2Cx9KqRE?si=AGGWSxOUZHZHSAGA",    
+  "categoria": "reducao de plasticos"
+},
+{
+  "titulo": "Como reduzir o consumo de plástico no seu dia a dia",
+  "canal": "Diário de Santa Maria",
+  "link": "https://www.youtube.com/embed/ZP3nIwZRRcg?si=ntF7hIBxYl5m1byJ",    
+  "categoria": "reducao de plasticos"
+},
+{
+  "titulo": "Mergulho e Conservação Marinha",
+  "canal": "Projeto Golfinho Rotador",
+  "link": "https://www.youtube.com/embed/vjwf3dUjplI?si=UUlRL4XUC8GK4pKw",    
+  "categoria": "conservacao marinha"
+},
+{
+  "titulo": "Os oceanos e as mudanças climáticas",
+  "canal": "Pacto Global da ONU - Rede Brasil",
+  "link": "https://www.youtube.com/embed/8VA9fIRQnDg?si=PcNxPAGKbBWWJc6_",    
+  "categoria": "conservacao marinha"
+},
+{
+  "titulo": "aOs oceanos e as mudanças climáticas",
+  "canal": "Pacto Global da ONU - Rede Brasil",
+  "link": "https://www.youtube.com/embed/8VA9fIRQnDg?si=PcNxPAGKbBWWJc6_",    
+  "categoria": "conservacao marinha"
+},
+{
+  "titulo": "Como fazer um mutirão de limpeza?",
+  "canal": "Rede TerraMar",
+  "link": "https://www.youtube.com/embed/TvabxVENXWE?si=3gTfAIUSTzwjyocc",    
+  "categoria": "limpeza de praias"
+},
+{
+  "titulo": "#MEIOAMBIENTE - Lixo Zero realiza mais uma ação de limpeza nas praias de Santos",
+  "canal": "Prefeitura de Santos",
+  "link": "https://www.youtube.com/embed/4ma8nqcYLI0?si=5B5LcCSa1LRcw-R1",    
+  "categoria": "limpeza de praias"
+}
+
 ]
 
-
-// {
-//   "titulo": "Título do vídeo",
-//   "canal": "Nome do canal",
-//   "link": "https://www.youtube.com/embed/-UmOPQRpRIE?si=jlM71j758xt-YbMF",    
-//   "categoria": "economia-azul"
-// }
+// categoria:"economia azul"
+// categoria:"poluicao marinha"
+// categoria:"reducao de plasticos"
+// categoria:"conservacao marinha"
+// categoria:"limpeza de praias"
 
 document.addEventListener('DOMContentLoaded', function() {
   exibirOsVideosNaTela(videos);
