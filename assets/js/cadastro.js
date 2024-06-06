@@ -51,7 +51,7 @@ document.getElementById('form').addEventListener('submit', function (e) {
         console.log(users)
 
         setTimeout(()=>{
-            window.location.href = '/login.html'
+            window.location.href = '../login.html'
         }, 2000)
     }
 });
