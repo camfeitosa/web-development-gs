@@ -11,7 +11,7 @@ document.getElementById('login').addEventListener('submit', function (e) {
 
     if (validarUser) {
         localStorage.setItem('loggedInUser', JSON.stringify(validarUser));
-        window.location.href = 'web-development-gs/pages/index.html';
+        window.location.href = 'https://camfeitosa.github.io/web-development-gs/pages';
     } else {
         wrongLogin.innerHTML = `E-mail ou senha errados`
     }
