@@ -11,7 +11,7 @@ document.getElementById('login').addEventListener('submit', function (e) {
 
     if (validarUser) {
         localStorage.setItem('loggedInUser', JSON.stringify(validarUser));
-        window.location.href = '../../pages/index.html';
+        window.location.href = 'web-development-gs/pages/index.html';
     } else {
         wrongLogin.innerHTML = `E-mail ou senha errados`
     }
