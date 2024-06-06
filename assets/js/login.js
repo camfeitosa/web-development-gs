@@ -10,7 +10,7 @@ document.getElementById('login').addEventListener('submit', function (e) {
     const validarUser = users.find(user => user.email === email && user.password === password);
 
     if (validarUser) {
-        localStorage.setItem('loggedInUser', email);
+        localStorage.setItem('loggedInUser', JSON.stringify(validarUser));
         window.location.href = 'pages/index.html';
     } else {
         wrongLogin.innerHTML = `E-mail ou senha errados`

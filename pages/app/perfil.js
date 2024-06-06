@@ -36,3 +36,8 @@ function togglePasswordEdit(){
     })
 }
 togglePasswordEdit()
+
+
+console.log(localStorage.users)
+console.log(localStorage.loggedInUser)
+console.log(localStorage)
