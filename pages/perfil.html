@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta metacharset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Perfil | Breathe Ocean</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+  integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../assets/styles/global.css" />
+  <link rel="icon" type="image/x-icon" href="../assets/img/logo-cad.svg">
+  </head>
+<body>
+  
+<header id="header-videos">
+  <a href="index.html" id="logo">
+    <img src="img/logo-gs.svg" alt="Logo" class="logo">
+  </a> 
+
+  <nav id="nav"> 
+    <button id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+      <span id="hamburger"></span>
+    </button>
+
+    <ul id="menu" class="menu-video" role="menu">
+      <li class="menu-pg"><a href="index.html">Vídeos</a></li> 
+      <!-- <li class="menu-pg"><a href="#tecnologias">Python(nome)</a></li> -->
+      <li class="menu-pg"><a href="perfil.html">Perfil</a></li>
+      <li class="hidden"><a href="index.html">Sair</a></li>
+    </ul>
+  </nav>
+
+  <ul id="btn-sair">
+    <li>
+        <button class="sair" id="logout">
+          <img src="./img/log-out .svg">
+          Sair
+        </button>
+    </li>
+  </ul> 
+
+</header>
+<section id="perfil">
+  <form id="edit-profile-form">
+      <label for="edit-profile-username">Nome:</label>
+      <input type="text" id="edit-profile-username" name="username">
+      <label for="edit-profile-email">Email:</label>
+      <input type="email" id="edit-profile-email" name="email">
+      <label for="edit-profile-password">Nova Senha:</label>
+      <div class="password perfil-editar ">
+        <input type="password" id="edit-profile-password" name="password" maxLength="15" minlength="6">
+        <img src="../../assets/img/eye1.svg" id="togglePassword4">
+      </div>
+      <button type="submit" class="editar">Salvar Alterações</button>
+</section>
+</form>
+  
+  <footer>
+    <div class="container-footer">
+      <div class="img-logo">
+        <img src="../assets/img/logo-gs.svg " alt="Logo">
+      </div>
+      &copy; Todos os direitos reservados | 2024
+      <div class="icones">
+        <img src="../assets/img/Github-Logo-2--Streamline-Logos.svg" alt="Logo GitHub">
+        <img src="../assets/img/Linkedin-Logo--Streamline-Logos-Block.svg" alt="Logo Linkedin">
+      </div>
+    </div>
+  </footer>
+  
+  
+  <script src="./app/sair.js"></script>
+  <script src="../assets/js/login.js"></script>
+  <script src="app/perfil.js"></script>
+</body>
+
+</html>

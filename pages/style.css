@@ -43,7 +43,6 @@ body {
   margin: 0 auto;
   align-items: center;
   padding: 1.4rem 0;
-  /* background-color: red; */
   margin-bottom: 2rem;
 }
 
@@ -215,6 +214,48 @@ body {
   margin-right: 1rem;
 }
 
+/* PROFILE */
+
+#edit-profile-form{
+  width: 30%;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#edit-profile-form label{
+  margin-top: 2rem;
+}
+
+#perfil{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.editar{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    padding: 0.6em;
+    border-radius: 8px;
+    width: 50%;
+    background-color: #4ECDC4;
+    color: #0D1B2A;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+
+.editar:hover{
+  background-color: #5d9995;
+}
+
+.perfil-editar{
+  margin-bottom: 1rem;
+}
 
 
 @media screen and (max-width: 1024px) {
@@ -238,7 +279,17 @@ body {
     width: 70%;
   }
 
+  #btn-sair .sair{
+    padding: 0.3rem;
+    font-size: 1rem;
+  }
+
   .videos{
     gap: 2rem;
+  }
+
+  #edit-profile-form{
+    width: 80%;
+    margin-top: 8rem;
   }
 }
