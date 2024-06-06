@@ -1,9 +1,9 @@
-#objetivos{
+#objetivos {
   height: 100vh;
   margin-bottom: 3rem;
 }
 
-.container-objetivos{
+.container-objetivos {
   display: flex;
   flex-direction: column;
   gap: 4rem;
@@ -12,14 +12,13 @@
   height: 100%;
 }
 
-.wrapper-objetivos{
+.wrapper-objetivos {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.card-objetivo{
+.card-objetivo {
   display: flex;
   align-items: flex-end;
   width: 399px;
@@ -30,53 +29,71 @@
   padding: 3rem;
 }
 
-.card1{
-  background-image: url('../../img/card1.png');
+.card1 {
+  background-image: url("../../img/card1.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.card2{
-  background-image: url('../../img/card2.png');
+.card2 {
+  background-image: url("../../img/card2.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.card3{
-  background-image: url('../../img/card1.png');
+.card3 {
+  background-image: url("../../img/card3.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.wrapper-objetivos h3{
-  font-size: 2.2rem;
+.card-objetivo h3 {
+  font-size: 2rem;
   font-weight: 500;
   text-align: left;
-  width: 70%;
+  width: 100%;
 }
 
-
-.container-objetivos h2{
+.container-objetivos h2 {
   font-size: 2rem;
   text-transform: uppercase;
 }
 
 @media screen and (max-width: 1024px) {
-.card-objetivo{
-  width: 32%;
-  height: 230px;
+  .card-objetivo {
+    width: 32%;
+    height: 230px;
+  }
+
+  #objetivos {
+    margin-bottom: 0;
+  }
+
+  .card-objetivo {
+    width: 32%;
+    height: 300px;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card-objetivo h3 {
+    font-size: 1rem;
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  .card1,
+  .card2,
+  .card3 {
+    background-image: url("../../img/card-mobile.png");
+  }
 }
 
-#objetivos{
-  margin-bottom:0;
-  display: none;
-
-}
-}
-
-@media screen and (max-width: 1388px) {
-.card-objetivo{
-  width: 32%;
-  height: 400px;
-}
+@media screen and (max-width: 1459px) and (min-width: 1023px) {
+  .wrapper-objetivos {
+    gap: 2rem;
+  }
 }
