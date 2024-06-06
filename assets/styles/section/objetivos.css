@@ -24,9 +24,15 @@
   width: 399px;
   height: 478px;
   border-radius: 8px;
-  /* background-image: url(''); */
   background-color: aliceblue;
   padding: 3rem;
+  transition: all .38s ease;
+}
+
+
+.card-objetivo:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
 }
 
 .card1 {

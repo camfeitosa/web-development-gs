@@ -108,7 +108,7 @@
 
 @media screen and (max-width: 1024px) {
   .background {
-    background-image: url("/assets/img/fundo.png"); /* falta editar imagem */
+    background-image: url("../../img/fundo-mobile.png"); 
   }
 
   .tartaruga {
@@ -116,7 +116,6 @@
   }
 
   .seta{
-    /* display: none; */
     top: 96%;
     width: 50px;
   }
